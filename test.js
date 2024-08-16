@@ -1,5 +1,5 @@
-import test from 'ava';
-import fn from './';
+const test = require('ava');
+const fn = require('./index.js');
 
 test('validate', t => {
 	t.false(fn('foo'));

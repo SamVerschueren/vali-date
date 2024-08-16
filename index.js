@@ -1,4 +1,4 @@
 'use strict';
-module.exports = function (str) {
-	return !isNaN(Date.parse(str));
+module.exports = function (string) {
+	return !isNaN(Date.parse(string));
 };
